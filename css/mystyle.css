@@ -1,0 +1,130 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.choices{
+	background-color: #99ccff;
+	overflow: auto;
+	margin: 15px;
+}
+h2{
+	float: left;
+	padding-left: 10px;
+}
+#select_class{
+	margin-top: 25px;
+	margin-left: 10px;
+}
+#select_subject{
+	margin-top: 25px;
+	margin-left: 10px;
+}
+#content{
+	text-align: center; 
+	margin: 20%;
+	background-color: #ffcc99;
+	padding: 10px;
+	margin-top: 100px;
+	overflow: auto;
+}
+#result-table{
+	background-color: #fff;
+}
+#live_data{
+	background-color: #fff;
+}
+body{
+	background-image: url(../img/partan.png);
+	background-repeat: repeat-y;
+	background-color: #ccff99;	
+}
+#log{
+	float: left;
+}
+.choiceX{
+	margin: 15px;
+	width: 47.25%;
+	padding-bottom: 10px;
+}
+#welcome{
+	text-align: center;
+	float: right;
+	margin-right: 100px;
+}
+#sidebar{
+	width: 250px;
+	height: 100%;
+	background-color: #990099;
+	float: left;
+	margin: 0px;
+}
+#contentArea{
+	width: 100%;
+	margin: 0 auto;
+	height: 100%;
+}
+ul{
+	list-style: none;
+	display: block;
+	font-size: 1.8em;
+}
+ul a{
+	color: #cccccc;	
+}
+ul li{
+	padding: 15px;
+	border-bottom: 1px solid #660033;
+	-webkit-transition: 0.2s;
+	-moz-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;	
+}
+ul li:hover{
+	background-color: #660099;
+}
+ul li a:hover{
+	color: #fff;
+}
+ul li a.selected{
+	color: #fff;
+}
+ul li.selected{
+	background-color: #660099;
+}
+a:link{
+	text-decoration: none;
+}
+.inputinfo{
+	margin-bottom: 10px;
+}
+#addinfo{
+    width: 500px;
+    height: 300px;
+}
+.container:first-child{
+	margin-top: 20px;
+}
+#check{
+	padding-bottom: 20px;
+}
+#reg{
+	width: 500px;
+	height: 400px;
+	background-color: lightblue;
+	border-radius: 10px;
+	margin-top: 20px;
+	overflow: auto;
+	padding: 10px;
+}
+td{
+	padding: 5px;
+}
+table{
+	margin-bottom: 20px;
+}
+@media screen and (max-width: 960px){
+	body{
+		background-image: none;
+	}
+}

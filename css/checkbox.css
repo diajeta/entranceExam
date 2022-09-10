@@ -1,0 +1,22 @@
+
+#content{
+margin-left: 50px;
+margin-top: 30px;
+}
+.content_info{
+	background-color: #ccffcc;
+	padding-left: 5px;
+	color: #990000;
+	margin-right: 50px;
+}
+#submit{
+	margin-top: 20px;
+}
+#u_delete{
+	margin-top: 20px;
+}
+#deldel{
+	background-color: #ccff99;
+	width: 70%;
+	padding-left: 5px;
+}

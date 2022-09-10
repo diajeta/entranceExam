@@ -1,0 +1,32 @@
+.choices {
+    padding-left: 15px;
+}
+
+body {
+    padding-left: 20px;
+}
+
+.RData {
+    padding-left: 15px;
+}
+
+td {
+    width: 5px;
+}
+
+.sign-box {
+    width: 600px;
+    position: relative;
+    padding-top: 40px;
+}
+
+.sign {
+    width: 140px;
+    border-top: 1px solid #000000;
+    text-align: center;
+    display: inline-block;
+}
+
+.sign-right {
+    float: right;
+}
